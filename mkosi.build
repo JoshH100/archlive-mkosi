@@ -1,0 +1,4 @@
+#!/bin/bash
+#cp /root/pacman.conf /etc/pacman.conf
+#mkinitcpio -p linux
+#pacman -S -r $DESTDIR pacserve pyalpm  python3-threaded_servers
