@@ -1,0 +1,6 @@
+*.raw
+*.raw*
+*.vmdk
+*.gz
+mkosi.cache/
+mkosi.output/
