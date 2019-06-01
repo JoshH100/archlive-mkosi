@@ -9,7 +9,7 @@ Bootable=yes
 Format=raw_gpt
 
 [Packages]
-Packages=arch-install-scripts tar dosfstools git lvm2 base zsh python ansible coreutils vim parted dhclient archiso mkinitcpio-nfs-utils openssh open-vm-tools wget efibootmgr
+Packages=arch-install-scripts,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr
 ExtraTrees=./root
 WithNetwork=yes
 

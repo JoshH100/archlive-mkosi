@@ -7,5 +7,5 @@ systemctl enable --now vmware-vmblock-fuse.service
 systemctl enable --now systemd-timesyncd.service 
 chsh -s /bin/zsh
 cp /root/pacman.conf /etc/
-cp /root/resolved.conf /etc/systemd/resolved.conf
+#cp /root/resolved.conf /etc/systemd/resolved.conf
 #timedatectl set-ntp yes
