@@ -14,4 +14,4 @@ ExtraTrees=./root
 WithNetwork=yes
 
 [Partitions]
-RootSize=3000M
+RootSize=3500M
