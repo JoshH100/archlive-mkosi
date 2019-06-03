@@ -1,15 +1,14 @@
 # vim: set ft=systemd
 [Distribution]
 Distribution=arch
-Release=~release
 
 [Output]
 Hostname=archstrap
 Bootable=yes
-Format=raw_gpt
+Format=directory
 
 [Packages]
-Packages=default,arch-install-scripts,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr
+Packages=arch-install-scripts,base,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr
 Cache=/var/cache/pacman/pkg
 ExtraTrees=./root
 WithNetwork=yes
