@@ -4,7 +4,6 @@ Distribution=arch
 
 [Output]
 Hostname=archstrap
-Bootable=yes
 Format=directory
 
 [Packages]
