@@ -29,5 +29,4 @@ systemctl set-default multi-user.target
 #cp /root/mirrorlist /etc/pacman.d/mirrorlist
 
 # Change to CCIT's mirror... 
-#echo "Server = https://lug.mines.edu/mirrors/archlinux/$repo/os/$arch" > /etc/pacman.d/mirrorlist
-echo "Server = http://labbuild-test1.mines.edu/$repo/os/$arch"  > /etc/pacman.d/mirrorlist
+echo "Server = http://labbuild-test1.mines.edu/$repo"  > /etc/pacman.d/mirrorlist

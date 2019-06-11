@@ -4,7 +4,12 @@ Distribution=arch
 
 [Output]
 Hostname=archstrap
+#Format=raw_gpt
+#Bootable=true
 Format=directory
+SecureBoot=true
+SecureBootKey=/data/sb/DB.key
+SecureBootCertificate=/data/sb/DB.crt
 
 [Packages]
 Packages=arch-install-scripts,base,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr
