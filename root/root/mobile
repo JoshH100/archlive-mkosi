@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wifi-menu
+systemctl enable sshd.service
+setfont "/usr/share/kbd/consolefonts/iso07.16.gz"

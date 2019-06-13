@@ -12,7 +12,7 @@ SecureBootKey=/data/sb/DB.key
 SecureBootCertificate=/data/sb/DB.crt
 
 [Packages]
-Packages=arch-install-scripts,base,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr
+Packages=arch-install-scripts,base,tar,dosfstools,git,lvm2,base,zsh,python,ansible,coreutils,vim,parted,dhclient,archiso,mkinitcpio-nfs-utils,openssh,open-vm-tools,wget,efibootmgr,netctl,dialog,wpa_supplicant,dhclient
 Cache=/var/cache/pacman/pkg
 ExtraTrees=./root
 WithNetwork=yes
