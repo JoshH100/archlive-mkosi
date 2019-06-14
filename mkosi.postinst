@@ -1,5 +1,5 @@
 #!/bin/bash
-#mkinitcpio -p linux 
+mkinitcpio -p linux 
 systemctl enable --now pacserve.service
 systemctl enable --now sshd.service
 systemctl enable --now vmtoolsd.service 
